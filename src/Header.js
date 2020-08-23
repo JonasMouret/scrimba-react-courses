@@ -2,15 +2,14 @@ import React from 'react'
 
 function Header () {
     return (
-        <div>
-            <h1>My WebApp</h1>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Picture</li>
-                </ul>
-            </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
         </div>
     )
 }
